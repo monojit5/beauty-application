@@ -50,7 +50,6 @@ const Navbar = () => {
                 </span>
               )}
             </Link>
-
             {user ? (
               <div className="flex items-center gap-4">
                 <Link to="/orders" className="text-gray-700 hover:text-rose-500 text-sm font-medium transition-colors">

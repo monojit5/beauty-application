@@ -27,11 +27,9 @@ app.get('/', (req, res) => {
   res.send('Beauty E-Commerce API is running...');
 });
 
-// Auto-seed sample products if database is empty
+
 
 app.listen(PORT, async () => {
   console.log(`Server is running on port ${PORT}`);
  
 });
-
-//MONGO_URI=mongodb://localhost:27017/beauty_db
